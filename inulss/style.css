@@ -379,4 +379,7 @@ nav ul li a:hover{
     .contact-form form{
         width: auto;
     }
+    .hero{
+        width: 100%
+    }
 }
