@@ -309,15 +309,14 @@ nav ul li a:hover{
 }
 
 @media (max-width: 991px){
-    header{
-        padding: 18px 4%;
+    .hero{
+        padding: 20px 4%;
+    }
+    .hero .images{
+        size: 20px;
     }
     section{
         padding: 50px 4%;
-    }
-    .images{
-        padding: 30px 4%;
-        width: 30%;
     }
 }
 
@@ -335,5 +334,49 @@ nav ul li a:hover{
     }
     header{
         padding: 11px 4%;
+    }
+    .home{
+        grid-template-columns: 0.5fr 3fr;
+    }
+    .home-text{
+        grid-column: 1/3;
+        padding-left: 1.4rem;
+    }
+    .home-img{
+        order: initial;
+    }
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        display: flex;
+        justify-content: center;
+    }
+    .skills-container{
+        grid-template-columns: 1fr;
+    }
+    .skills-img img{
+        padding-left: 0;
+    }
+    .skills-img{
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 340px){
+    :root{
+        --big-font: 1.7rem;
+        --medium-font: 1.1rem
+    }
+    .information .info-box span{
+        font-size: 1rem;
+    }
+    .porto-content{
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    }
+    .contact-form form{
+        width: auto;
     }
 }
