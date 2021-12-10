@@ -315,8 +315,9 @@ nav ul li a:hover{
     section{
         padding: 50px 4%;
     }
-    .hero{
-        padding: 50px 4%;
+    .images{
+        padding: 30px 4%;
+        width: 30%;
     }
 }
 
