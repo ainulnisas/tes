@@ -315,6 +315,9 @@ nav ul li a:hover{
     section{
         padding: 50px 4%;
     }
+    .hero{
+        padding: 50px 4%;
+    }
 }
 
 @media (max-width: 881px){
