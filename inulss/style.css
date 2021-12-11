@@ -385,35 +385,12 @@ nav ul li a:hover{
 }
 --*/
 
-@media (min-width: 981px) and (max-width: 1031px){
-    .images{
-        width: 50%;
-        height: 70%;
-    }
-}
-
-@media (min-width: 877px) and (max-width: 1040px){
+@media (min-width: 949px) and (max-width: 1049px){
     .tulisan h1{
-        font-size: 48px;
+        padding-right: 70%;
     }
-}
-
-@media (min-width: 800px) and (max-width: 980px){
     .images{
-        width: 38%;
-        height: 65%;
-    }
-}
-
-@media (min-width: 700px) and (max-width: 876px){
-    .tulisan h1{
-        font-size: 44px;
-    }
-}
-
-@media (min-width: 340px) and (max-width: 720px){
-    .images{
-        width: 30%;
-        height: 50%;
+        width: 42%;
+        height: 75%;
     }
 }
