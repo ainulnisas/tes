@@ -123,6 +123,7 @@ nav ul li a:hover{
 
 .about-container{
     margin-left: 8%;
+    margin-right: 8%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
@@ -177,6 +178,7 @@ nav ul li a:hover{
 .skills-container{
     display: grid;
     margin-left: 8%;
+    margin-right: 8%;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
@@ -308,3 +310,110 @@ nav ul li a:hover{
     transition: 1s;
 }
 
+/*--
+@media (max-width: 991px){
+    .hero{
+        padding: 20px 4%;
+    }
+    .hero .images{
+        size: 20px;
+    }
+    section{
+        padding: 50px 4%;
+    }
+}
+
+@media (max-width: 881px){
+    :root{
+        --big-font: 2.7rem;
+        --medium-font: 1.4rem;
+    }
+}
+
+@media (max-width: 768px){
+    :root{
+        --big-font: 2.4rem;
+        --medium-font: 1.2rem;
+    }
+    header{
+        padding: 11px 4%;
+    }
+    .home{
+        grid-template-columns: 0.5fr 3fr;
+    }
+    .home-text{
+        grid-column: 1/3;
+        padding-left: 1.4rem;
+    }
+    .home-img{
+        order: initial;
+    }
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        display: flex;
+        justify-content: center;
+    }
+    .skills-container{
+        grid-template-columns: 1fr;
+    }
+    .skills-img img{
+        padding-left: 0;
+    }
+    .skills-img{
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 340px){
+    :root{
+        --big-font: 1.7rem;
+        --medium-font: 1.1rem
+    }
+    .information .info-box span{
+        font-size: 1rem;
+    }
+    .porto-content{
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    }
+    .contact-form form{
+        width: auto;
+    }
+}
+--*/
+
+@media (min-width: 981px) and (max-width: 1031px){
+    .images{
+        width: 50%;
+        height: 70%;
+    }
+}
+
+@media (min-width: 877px) and (max-width: 1040px){
+    .tulisan h1{
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 980px){
+    .images{
+        width: 38%;
+        height: 65%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 876px){
+    .tulisan h1{
+        font-size: 44px;
+    }
+}
+
+@media (min-width: 340px) and (max-width: 720px){
+    .images{
+        width: 30%;
+        height: 50%;
+    }
+}
